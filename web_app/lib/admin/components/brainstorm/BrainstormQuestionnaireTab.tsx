@@ -11,6 +11,7 @@ import { BrandQuestionnaireData } from '../../types';
 import GenerationProgressDialog from '../shared/dialogs/GenerationProgressDialog';
 import { GenerationStep } from '../../types';
 
+
 type ContentState = 'questionnaire' | 'preview' | 'completed';
 
 export default function BrainstormQuestionnaireTab() {
